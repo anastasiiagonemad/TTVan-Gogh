@@ -29,6 +29,7 @@
     position: absolute;
     top: 2rem;
     right: 4rem;
+    cursor: pointer;
 }
 .menu-mob_burger-close_btn img {
     transform: rotate(90deg);
@@ -62,6 +63,7 @@
     border-radius: 50px;
     gap: 5px;
     margin-top: 5rem;
+    cursor: pointer;
 }
 
 .menu-mob_burger-opened_cart img {
