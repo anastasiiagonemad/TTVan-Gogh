@@ -1,0 +1,94 @@
+/*         AREAS       */
+.footer-logo {
+    grid-area: logo;
+}
+.footer-address {
+    grid-area: address;
+}
+.footer-services {
+    grid-area: services;
+}
+.footer-polite {
+    grid-area: polite;
+}
+.footer-spam {
+    grid-area: spam;
+    width: 50%;
+}
+.footer-contacts {
+    grid-area: contacts;
+}
+.footer-cards {
+    grid-area: cards;
+}
+/* _______________________ */
+
+.footer {
+    background-color: var(--black-bg);
+    color: white;
+}
+
+.footer h2 {
+    color: white;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-areas:
+        "logo address services polite"
+        "spam . contacts cards";
+    column-gap: 1rem;
+}
+
+.footer-logo img {
+    width: 180px;
+}
+
+.footer-polite a,
+.footer-spam a {
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-spam a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-services li {
+    margin-left: -37px;
+}
+.footer-cards {
+    align-self: center;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer-container {
+        display: grid;
+        grid-template-areas:
+            "logo logo logo logo"
+            "address . contacts services"
+            "polite polite polite polite"
+            "cards cards spam spam";
+    }
+
+    .footer-spam {
+        width: 100%;
+    }
+    .footer-cards {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .footer-container {
+        display: grid;
+        grid-template-areas:
+            "logo"
+            "address"
+            "contacts"
+            "services "
+            "polite"
+            "cards"
+            "spam";
+    }
+}

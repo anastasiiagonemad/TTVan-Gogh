@@ -1,0 +1,115 @@
+body {
+    max-width: 1920px;
+    min-width: 390px;
+    scroll-behavior: smooth;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.main-with-paddings {
+    padding: 60px 260px 60px 260px;
+}
+.footer-container {
+    padding: 60px 260px 60px 260px;
+}
+
+@media screen and (max-width: 1600px) {
+    .main-with-paddings {
+        padding: 60px 180px 60px 180px;
+    }
+    .footer-container {
+        padding: 60px 180px 60px 180px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .main-with-paddings {
+        padding: 50px 44px 50px 44px;
+    }
+    .footer-container {
+        padding: 50px 44px 50px 44px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .main-with-paddings {
+        padding: 40px 35px 40px 35px;
+    }
+    .footer-container {
+        padding: 40px 35px 40px 35px;
+    }
+}
+
+/* COLORS */
+:root {
+    --marker: #e45302;
+    --black-text: #231815;
+    --white-text: #ffffff;
+    --black-bg: #0c0c0c;
+    --overlined-text: #808080;
+}
+
+/* fonts */
+h1 {
+    font-family: "Korataki", sans-serif;
+    font-size: 2.75em;
+    line-height: 61.6px;
+}
+h2 {
+    font-family: "Lato700", sans-serif;
+    font-size: 1.185em;
+    line-height: 25.2px;
+    color: var(--black-text);
+}
+
+p {
+    font-family: "Lato400", sans-serif;
+    font-size: 1em;
+}
+
+.marked-price {
+    font-family: "Lato700", sans-serif;
+    font-size: 1.375em;
+    color: var(--marker);
+}
+
+.unmarked-price {
+    font-family: "Lato700", sans-serif;
+    font-size: 1.375em;
+    color: var(--black-text);
+}
+
+.lined-price {
+    font-family: "Lato700", sans-serif;
+    font-size: 1.375em;
+    color: var(--overlined-text);
+    text-decoration: line-through;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    line-height: 20.8px;
+    color: var(--overlined-text);
+}
+
+a {
+    font-family: "Lato400", sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: (var(--black-text));
+}
+
+ul > li {
+    list-style: none;
+}
+
+/* special styles */
+
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

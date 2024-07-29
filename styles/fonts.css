@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Lato400";
+    src: url("../assets/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato700";
+    src: url("../assets/fonts/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Korataki";
+    src: url("../assets/fonts/korataki.otf");
+}

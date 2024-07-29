@@ -1,0 +1,20 @@
+.top-menu {
+    background-color: var(--black-bg);
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10rem;
+    gap: 3rem;
+    align-items: center;
+    color: var(--white-text);
+}
+
+@media screen and (max-width: 770px) {
+    .top-menu {
+        display: none;
+    }
+}
