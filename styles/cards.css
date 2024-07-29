@@ -4,6 +4,11 @@
     column-gap: 1rem;
 }
 
+.main-cards_item {
+    display: grid;
+    align-items: center;
+}
+
 .main-cards_item-img {
     position: relative;
 }
