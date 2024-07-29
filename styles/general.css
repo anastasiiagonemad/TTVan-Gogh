@@ -110,6 +110,10 @@ ul > li {
         font-size: 2em;
     }
 
+    h2 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1em;
+    }
     .marked-price,
     .unmarked-price,
     .lined-price {
